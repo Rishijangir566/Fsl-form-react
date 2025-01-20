@@ -9,9 +9,7 @@ export default {
   },
   plugins: [],
   
-  fontFamily: {
-    roboto: ['Roboto', 'sans-serif'], // Add your Google Font here
-  },
+  
 }
 
 
