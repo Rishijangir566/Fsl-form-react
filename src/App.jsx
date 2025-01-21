@@ -3,6 +3,7 @@ import { useState } from "react";
 function App() {
   const [showPopup , setShowPopUp]=useState(false);
   const [formValues, setFormValues] = useState({
+
     name: "",
     email: "",
     phone: "",
@@ -89,7 +90,7 @@ function App() {
     <>
       <form onSubmit={handleSubmit}>
         <div className="personal-details border-2 mx-2 my-4">
-          <h1 className="px-2 text-lg font-semibold bg-gray-400">Personal Details</h1>
+          <h1 className="px-2 text-2xl font-semibold bg-gray-400">Personal Details</h1>
           <hr />
           <div className="flex gap-8 my-4">
             <label className="w-36 mx-2">
@@ -221,7 +222,7 @@ function App() {
 
         {/* Parent/Guardian Details */}
         <div className="parent/gaurdian-details border-2 mx-2 my-4">
-          <h1 className="px-2 text-lg font-semibold bg-gray-400">Parent/ Guardian Details</h1>
+          <h1 className="px-2 text-2xl font-semibold bg-gray-400">Parent/ Guardian Details</h1>
           <hr />
           <div className="flex gap-8 my-4">
             <label htmlFor="parentName" className="w-36 mx-2">
@@ -253,7 +254,7 @@ function App() {
 
         {/* Residential Details */}
         <div className="Residential-details border-2 mx-2 my-4">
-          <h1 className="px-2 text-lg font-semibold bg-gray-400">Residential Details</h1>
+          <h1 className="px-2 text-2xl font-semibold bg-gray-400">Residential Details</h1>
           <hr />
           <div className="flex gap-8 my-4">
             <label htmlFor="localAddress" className="w-36 mx-2">
@@ -295,7 +296,7 @@ function App() {
 
         {/* Education Details */}
         <div className="Education-details border-2 mx-2 my-4">
-          <h1 className="px-2 text-lg font-semibold bg-gray-400">Education Details</h1>
+          <h1 className="px-2 text-2xl font-semibold bg-gray-400">Education Details</h1>
           <hr />
           <div className="flex gap-8 my-4">
             <label htmlFor="status" className="w-36 mx-2">
@@ -373,7 +374,7 @@ function App() {
 
         {/* Course Details */}
         <div className="Course-details border-2 mx-2 my-4">
-          <h1 className="px-2 text-lg font-semibold bg-gray-400">Course Details</h1>
+          <h1 className="px-2 text-2xl font-semibold bg-gray-400">Course Details</h1>
           <hr />
           <div className="flex gap-8 my-4">
             <label htmlFor="course" className="w-36 mx-2">
